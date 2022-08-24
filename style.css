@@ -137,3 +137,26 @@ form > input {
     font-style: italic;
     text-decoration: underline;
 }
+
+
+/* Animations */
+
+@keyframes slogan-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#slogan {
+    animation-name: slogan-fade-in;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
