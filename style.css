@@ -80,6 +80,7 @@ nav h1 {
 .container .intro {
     display: inherit;
     height: 66vh;
+    justify-content: center;
     align-items: center;
     width: 80%
 }
@@ -153,6 +154,6 @@ form > input {
 
 #slogan {
     animation-name: slogan-fade-in;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-delay: 0s;
 }
