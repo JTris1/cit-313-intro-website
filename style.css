@@ -120,9 +120,7 @@ form #submit-button {
 #stars {
     opacity: 50%;
     position: absolute;
-    /* z-index: 0; */
-    height: 93vh;
-    zoom: 150%;
+    max-width: 100%;
 
     animation-name: stars-fade-in;
     animation-duration: 5s;
