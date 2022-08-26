@@ -60,6 +60,37 @@ nav h1 {
     margin: 0 30px 0 0;
 }
 
+.reg-form-container {
+    background-color: #5993bb;
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 75%;
+    height: 20px
+}
+
+form h2 {
+    /* color: black; */
+}
+
+form #submit-button {
+    width: 75px;
+}
+
 .register-link {
     display: flex;
     justify-content: right;
